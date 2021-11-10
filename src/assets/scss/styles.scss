@@ -1,0 +1,17 @@
+@import './config';
+
+// Base
+@import './base/base', './base/typography';
+
+// Components
+@import './components/footer', './components/forms';
+
+// Pages
+@import './pages/login';
+
+.temp-content {
+    min-height: 200px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
